@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f7fa">
+    <meta name="description" content="A warm welcome awaits at Kakani Guest House and Restaurant in Kakani, Nepal. Explore guesthouse stays, dining, and directions.">
+    <title>Kakani Guest House &amp; Restaurant | A stay above the valley</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Kakani Guest House and Restaurant home">
+        <span class="brand-mark" aria-hidden="true">K</span>
+        <span class="brand-name">Kakani <span>Guest House &amp; Restaurant</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#experience">The experience</a>
+        <a href="#stay-dine">Stay &amp; dine</a>
+        <a href="#find-us">Find us</a>
+        <a class="nav-cta" href="tel:+9779851068240">Call us <span aria-hidden="true">↗</span></a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">
+          <span class="theme-icon" aria-hidden="true">◐</span><span class="theme-label">Dark mode</span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="home">
+        <div class="hero-photo" role="img" aria-label="The garden and grounds at Kakani Guest House"></div>
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow"><span class="eyebrow-line"></span> KAKANI · BAGMATI PROVINCE · NEPAL</p>
+          <h1>A little closer<br>to <em>the quiet.</em></h1>
+          <p class="hero-description">Come for a meal, stay a little longer. Find a warm welcome at Kakani Guest House and Restaurant.</p>
+          <div class="hero-actions">
+            <a class="button button-light" href="tel:+9779851068240">Call to plan <span aria-hidden="true">↗</span></a>
+            <a class="hero-text-link" href="#experience">Discover Kakani <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-note"><span class="note-mark">✳</span><span>A place to pause<br>and feel at home.</span></div>
+        <a class="hero-scroll" href="#experience" aria-label="Scroll to discover"><span></span></a>
+      </section>
+
+      <section class="intro section-wrap" id="experience">
+        <div class="section-kicker"><span>01</span><span>WELCOME TO KAKANI</span></div>
+        <div class="intro-grid">
+          <h2>Make room<br>for <em>the moment.</em></h2>
+          <div class="intro-copy">
+            <p class="lead">Some places are best enjoyed without a hurry.</p>
+            <p>Settle into Kakani, take in the mountain air, and make yourself at home. Whether you're stopping by for a meal or planning a longer escape, we're here to welcome you.</p>
+            <a class="underlined-link" href="#stay-dine">Explore your visit <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="feature-strip">
+          <article class="feature-item"><span class="feature-symbol" aria-hidden="true">⌂</span><div><h3>A place to stay</h3><p>Take your time in Kakani.</p></div></article>
+          <article class="feature-item"><span class="feature-symbol" aria-hidden="true">✳</span><div><h3>A table to gather around</h3><p>Make space for a good meal.</p></div></article>
+          <article class="feature-item"><span class="feature-symbol" aria-hidden="true">↟</span><div><h3>A change of pace</h3><p>Step away from the everyday.</p></div></article>
+        </div>
+      </section>
+
+      <section class="stay-dine section-wrap" id="stay-dine">
+        <div class="section-kicker"><span>02</span><span>MAKE A VISIT OF IT</span></div>
+        <div class="stay-dine-heading">
+          <div><h2>Stay a while.<br><em>Share a meal.</em></h2></div>
+          <div class="tabs" role="tablist" aria-label="Choose your visit">
+            <button class="tab is-active" id="stay-tab" type="button" role="tab" aria-selected="true" aria-controls="visit-panel" data-visit="stay">Stay</button>
+            <button class="tab" id="dine-tab" type="button" role="tab" aria-selected="false" aria-controls="visit-panel" data-visit="dine" tabindex="-1">Dine</button>
+          </div>
+        </div>
+        <article class="visit-panel" id="visit-panel" role="tabpanel" aria-labelledby="stay-tab" tabindex="0">
+          <div class="visit-slideshow" id="visit-slideshow" role="region" aria-roledescription="carousel" aria-label="Photos from Kakani Guest House and Restaurant">
+            <div class="slide-frame">
+              <img class="slide-image" id="slide-image" src="images/kakani-listing-cover.jpg" alt="Garden and grounds at Kakani Guest House">
+              <div class="slide-shade" aria-hidden="true"></div>
+              <span class="slide-caption" id="slide-caption">The garden at Kakani</span>
+            </div>
+            <div class="slideshow-controls" aria-label="Slideshow controls">
+              <button class="slide-arrow" id="slide-previous" type="button" aria-label="Previous photo"><span aria-hidden="true">←</span></button>
+              <div class="slide-dots" aria-label="Choose a photo">
+                <button class="slide-dot is-active" type="button" aria-label="Show photo 1: garden at Kakani" aria-pressed="true" data-slide="0"></button>
+                <button class="slide-dot" type="button" aria-label="Show photo 2: guest house sign" aria-pressed="false" data-slide="1"></button>
+                <button class="slide-dot" type="button" aria-label="Show photo 3: outdoor fire pit" aria-pressed="false" data-slide="2"></button>
+              </div>
+              <span class="slide-count" id="slide-count" aria-live="polite" aria-atomic="true">1 / 3</span>
+              <button class="slide-arrow" id="slide-next" type="button" aria-label="Next photo"><span aria-hidden="true">→</span></button>
+            </div>
+          </div>
+          <div class="visit-copy">
+            <span class="visit-index" id="visit-index">A PLACE TO UNWIND</span>
+            <h3 id="visit-title">Let the day<br>take its time.</h3>
+            <p id="visit-description">Make Kakani your base for a slower kind of getaway. Call us directly to ask about availability and plan your stay.</p>
+            <a class="underlined-link" href="tel:+9779851068240" id="visit-link"><span id="visit-link-label">Call about a stay</span><span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+        <p class="visit-hint" aria-live="polite" id="visit-hint">Showing guesthouse stays</p>
+      </section>
+
+      <section class="quote-band">
+        <div class="quote-mark" aria-hidden="true">“</div>
+        <p>A change of scenery<br>can change <em>everything.</em></p>
+        <span>KAKANI, NEPAL</span>
+      </section>
+
+      <section class="visit-details section-wrap">
+        <div class="section-kicker"><span>03</span><span>GOOD TO KNOW</span></div>
+        <div class="details-grid">
+          <div class="details-heading">
+            <h2>Easy to find.<br><em>Hard to hurry.</em></h2>
+            <p>Come say hello in Kakani. Call ahead and we'll be happy to help you plan.</p>
+          </div>
+          <div class="details-list">
+            <div class="detail-row"><span class="detail-label">FIND US</span><p>Kakani Park Marg, Kakani,<br>Bagmati Province 44900, Nepal</p><a href="https://maps.google.com/?q=Kakani+Guest+House+And+Restaurant" target="_blank" rel="noopener noreferrer" aria-label="Get directions to Kakani Guest House and Restaurant">Get directions ↗</a></div>
+            <div class="detail-row"><span class="detail-label">CALL US</span><p><a href="tel:+9779851068240">+977 985-1068240</a></p><a href="tel:+9779851068240">Call the guest house ↗</a></div>
+            <div class="detail-row"><span class="detail-label">SAY HELLO ONLINE</span><p>Follow along on Facebook.</p><a href="https://www.facebook.com/profile.php?id=100091561972618" target="_blank" rel="noopener noreferrer">Visit our Facebook page ↗</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="map-section" id="find-us" aria-label="Map showing Kakani">
+        <iframe title="Map showing Kakani Guest House and Restaurant in Kakani, Nepal" src="https://maps.google.com/maps?q=Kakani%20Guest%20House%20And%20Restaurant&t=&z=14&ie=UTF8&iwloc=&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a class="map-card" href="https://maps.google.com/?q=Kakani+Guest+House+And+Restaurant" target="_blank" rel="noopener noreferrer"><span class="map-card-label">COME FIND US</span><span class="map-card-title">Kakani, Nepal</span><span class="map-card-link">Open in Google Maps ↗</span></a>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand-footer" href="#home"><span class="brand-mark" aria-hidden="true">K</span><span class="brand-name">Kakani <span>Guest House &amp; Restaurant</span></span></a>
+      <p>Kakani Park Marg, Kakani, Nepal</p>
+      <a class="footer-top" href="#home">BACK TO TOP ↑</a>
+      <span class="copyright">© <span id="year"></span> Kakani Guest House &amp; Restaurant</span>
+    </footer>
+  </body>
+</html>
